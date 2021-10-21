@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name="singleton-injector",
-    packages=["singleton-injector"],
+    packages=["singleton_injector"],
     version="0.1",
     license="MIT",
     description="Simple library to unify singleton and injection with a decorator",
