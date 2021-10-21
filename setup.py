@@ -9,7 +9,7 @@ setup(
     author="Santiago Melo Medina",
     author_email="smelomedina05@gmail.com",
     url="https://github.com/santiagoMeloMedina/singleton-injector",
-    download_url="",
+    download_url="https://github.com/santiagoMeloMedina/singleton-injector/archive/refs/tags/0.1.tar.gz",
     keywords=[
         "Injection",
         "Singleton",
