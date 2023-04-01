@@ -9,7 +9,7 @@ class Injector:
         self.singleton = singleton
         self._classes: Dict[str, Callable] = {}
 
-    def __call__(self, _class: Callable) -> Callable:
+    def __call__(self, _class):
         class_wrapper = self.singleton(_class)
         self._classes[_class.__name__] = class_wrapper
         self.__inject(_class, self._classes[_class.__name__])
