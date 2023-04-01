@@ -3,13 +3,13 @@ from distutils.core import setup
 setup(
     name="singleton-injector",
     packages=["singleton_injector"],
-    version="0.1",
+    version="0.3",
     license="MIT",
     description="Simple library to unify singleton and injection with a decorator",
     author="Santiago Melo Medina",
     author_email="smelomedina05@gmail.com",
     url="https://github.com/santiagoMeloMedina/singleton-injector",
-    download_url="https://github.com/santiagoMeloMedina/singleton-injector/archive/refs/tags/0.1.tar.gz",
+    download_url="https://github.com/santiagoMeloMedina/singleton-injector/archive/refs/tags/0.2.tar.gz",
     keywords=[
         "Injection",
         "Singleton",
